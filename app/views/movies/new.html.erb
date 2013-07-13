@@ -12,7 +12,6 @@
     <li>
       <h3><%= movie.title %></h3>
         <ul>
-          <li><%= image_tag movie.poster %></li>
           <li>Year: <%= movie.year %></li>
           <li>Plot: <%= truncate(movie.plot, length: 50) %></li>
           <li>MPAA Rating: <%= movie.mpaa_rating %></li>
